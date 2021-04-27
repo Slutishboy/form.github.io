@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en" class="op">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Payment Portal</title>
+    <link rel="stylesheet" href="style3.css">
+  
+  </head>
+  
+  <style>
+    h2{
+      color: rgba(0, 0, 0, 0.671);
+    }
+  </style>
+  <body >
+     <div 
+     class="container"> 
+   
+    <form action="" method="GET">
+  
+   <!-- <form action="mailto:sohomsaha361@gamil.com" method="POST" enctype="text/plain"> -->
+      <h1 class="main_heading" style="color: rgba(255, 209, 5, 0.924); ">Payment Portal</h1>
+      <p>Required feilds are marked with *</p>
+      <h2>Contact Information</h2>
+      <p>Name: <input type="text" name="name" placeholder="Shyam Haldar" required/>*</p>
+      <fieldset>
+          <legend>Gender</legend>
+      <p>
+        Male <input type="radio" name="gender" id="Male" required /> Female
+        <input type="radio" name="gender" id="Female" required /> Others
+        <input type="radio" name="gender" id="Others" required/>
+      </p>
+   <!--awdmanfaufnufn-->
+    </fieldset>
+    <p ><p class="add">Address:</p> <textarea name="address" id="address" cols="100" rows="10" placeholder="Enter your address"></textarea></p>
+    <p>Email: <input type="email" name="email" id="email" required></p>
+    <label for="">Pincode:</label>
+    <input type="number" name="pincode" id="pincode" required>
+    <br>
+    <br>
+    <!-- IMPORTANT WAY TO MAKE A FORM BELOW-->
+    <label for="">User ID</label>
+    <input type="text" required name="User ID">
+    <hr>
+    <h2>Payment Details</h2>
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit <span class="otp"> Quidem, odio in at quasi deserunt rem qui amet eius accusamus, </span>soluta id earum. Tempora sint mollitia dolorem possimus necessitatibus corrupti fugiat?</p>
+    <p>Card Type:
+        <select name="cardType" id="cardType" required>
+            <option value="">--Select a card type--</option>
+            <option value="visa">Visa</option>
+            <option value="mastercard">Mastercard</option>
+            <option value="rupay">Rupay</option>
+        </select>
+    </p>
+  
+    <p id="CdNO" class="XYZ">Card Number <input type="number" placeholder="XXXX-XXXX-XXXX-XXXX" name="Cnumber" id="Cnumber" required></p>
+    <p id="EXP">Expiry Date: <input type="date" name="date" id="date" required></p>
+    <p id="CVV">CVV <input type="password" name="cvv" id="cvv"   placeholder="***" required></p>
+    <input type="submit" value="Pay Now">
+    <br>
+    <hr>
+    
+    <a href="#" target="blank">Home Page</a>
+    </form>
+  </div>
+  </body>
+</html>
